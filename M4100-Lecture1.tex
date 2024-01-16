@@ -1,22 +1,26 @@
-\documentclass[11pt]{amsart}
+\documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
 \usepackage[margin=1in]{geometry}
-\usepackage{amsfonts, amssymb, amsmath, amsthm, booktabs, hyperref, pgfplots, tikz, xcolor, multicol}
+\usepackage{amsfonts, amssymb, amsmath, amsthm, booktabs, hyperref, pgfplots, tikz, multicol, enumitem}
 
-\setlength{\parindent}{0pt}
 \setlength{\parskip}{5pt}
+\setlength{\parindent}{0pt}
+
+\theoremstyle{theorem}\newtheorem*{task}{Task}
+\theoremstyle{theorem}\newtheorem*{example}{Example}
+\theoremstyle{definition}\newtheorem*{solution}{Solution}
+\theoremstyle{theorem}\newtheorem*{prompt}{Prompt}
 
 \begin{document}
 
-\textbf{MATH 4100 Topics in Mathematics Education} \hfill \textbf{Lecture 1} \\
+\noindent \textbf{MATH 4100 Topics in Mathematics Education} \hfill \textbf{Lecture 1} \\
 \textsc{Lecture} \hfill \textsc{Joe Tran}
 
-\section{Course Outline}
+\section{Outline}
 
-\subsection{Content} 
-
-We will be covering the following in this class.
-\begin{itemize}
+We will be covering the following in this class:
+\begin{enumerate}
     \item Wait time
     \item Classifying mathematical tasks
     \item Asking mathematical questions
@@ -26,154 +30,95 @@ We will be covering the following in this class.
     \item Educational technology
     \item Math anxiety
     \item Authentic examples
-    \item Assessments, worked examples and diagnostics
-\end{itemize}
-
-\subsection{Grading}
+    \item Assessments, worked examples, and diagnostics.
+\end{enumerate}
 
 The following is the grading scheme for the class.
-
 \begin{itemize}
-    \item 20\% Weekly Readings (5 readings, 4\% each)
-    \item 45\% Reflection Assignments
+    \item 20\% Weekly readings (5 readings, 4\% each)\footnote{Reading 0 will be a calibration activity and it will show you how the system works. This will be due next Tuesday.}
+    \item 45\% Reflection assignments
     \begin{itemize}
         \item 20\% Reflection Assignment 1
         \item 25\% Reflection Assignment 2
     \end{itemize}
     \item 10\% Participation
-    \item 25\% Communication Project
+    \item 25\% Communication project
 \end{itemize}
 
-Reading \#0, a calibration activity will show you how the system works, will be due next Monday at 11:30 AM.
+You are expected to use the course materials to analyze and/or explain something you have experienced or witnessed as a student and/or instructor. In order to obtain an A in this class, you need to go above and beyond for the case-by-case analysis. Submit all assignments on eClass.
 
-You are expected to use the course materials to analyze and/or explain something you have experienced or witnessed as a student and/or instructor.
-
-To obtain an A in this class, need to go above and beyond for the case-by-case analyses.
-
-Submit all assignments on eClass, which will all be online.
-
-\subsection{Expectations}
-
-Expected to...
+In this class, you're expected to
 \begin{itemize}
     \item Attend every class and take notes.
     \item Participate in each activity.
     \item Use the course materials heavily in the assessments.
     \item Ask frequent questions.
-    \item Disagreements with each other
+    \item Disagreements with each other.
     \item Listen and respond to feedback.
-    \item Take advantage of the opportunity this course provides in enhancing your unique skill set.
-    \item 3 hours of class, 6 hours of work outside.
-    \item Solicit and respond to feedbackModel good pedagogical practice
-    \item Encourage you to personalize your learning
-    \item Provide constructive feedback
-    \item Have high expectations
+    \item Take advantage of the opportunity this courses provides in enhancing your unique skill set.
+    \item 3 hours of class, 6 work outside the class.
+    \item Solicit and respond to feedback.
+    \item Model good pedagogical practice.
+    \item Encourage to personalize your learning.
+    \item Provide constructive feedback.
+    \item Have high expectations.
 \end{itemize}
 
-\section{Typical Class Structure}
+\section{Prompts}
 
-\subsection{Discussion Prompt}
+\begin{prompt}
+    What was your best learning experience? (i.e. best teacher, best class, etc.)
+\end{prompt}
 
-A prompt on the board/screen when you arrive in class and there will be group discussions/breakout rooms.
+\textcolor{Blue}{One of my best learning experiences comes from learning analysis throughout my university journey. I really do enjoy learning some of the theory behind some of the mathematical concepts that were taught previously, but have not gone much in depth of how it came to be. For example, in MATH 1300 Differential Calculus with Applications, there was the notion of the definition of the limit, and at the time, I thought that the definition of the limit was the limit that we have learned back in high school, but as it turns out it was a bit more complex than one may have expected. After going through the pain and suffering of learning from the definition of the limit to the definition of the derivative to integration, etc (basically transitioning through all of the analysis courses), I really enjoy the learning experience of analysis in general. In high school, I had one of the greatest teachers who inspired me to become a mathematician, partly to teach but partly to learn about the theory behind mathematics. His class was always structured very nicely and no time was wasted in learning.}
 
-\subsection{Math Activity}
+\begin{prompt}
+    What was your worst learning experience? (i.e. worst teacher, worst class, etc.)
+\end{prompt}
 
-A math problem to work on in groups and you'll discuss how the readings apply to the problem.
+\textcolor{Blue}{Learning high school English was one of the worst experiences throughout my years of high school. We were mainly focused on learning about shakespeare and novel studies that really made me bored throughout the time I learned English in high school. Mainly, English you would need to use to communicate, which is true in mathematics setting, especially when you need to write reports or papers, etc. However, it is not as important in English class to be learning about the novels that we have read, which to be is irrelevant, which make it one of my worst classes. I did not have a worse teacher however, all of my teachers were amazing.}
 
-\subsection{Education Topic(s)}
+\begin{prompt}
+    ``We have trained students to know that if they wait long enough, we'll give them the answer.'' What are your thoughts on this quote?
+\end{prompt}
 
-One or two math education topic with activities and discussions
+\color{Blue}
 
-\subsection{Case Study}
-
-A specific educational problem to discuss and debate.
-
-\section{Discussion Prompt}
-
-\subsection{Prompt} 
-
-What was your best learning experience? (i.e., best teacher, best class, etc.)
-
-\subsection{Prompt}
-
-What was your worst learning experience?
-
-\subsection{Prompt}
-
-``We have trained students to know that if they wait long enough, we'll give them the answer.'' What are your thoughts on this quote?
-
+There are definitely pros and cons when it comes to the quote, and certainly, there are some that are in the middle as well (i.e. you can see both pros and cons).
 \begin{itemize}
-    \item In high school, students would wait for a long time for their teachers to provide them with an answer because the student would not know how to approach it at all.
-    \item In university level math course, students would get stuck on a problem, so they would circle it and eventually come back to the question.
+    \item \textbf{Pros:} Encouraging patience can be a positive learning experience, as learning requires time and effort. Some concepts may take longer to digest and learn about compared to others. Also, it acknowledges the teacher's willingness to assist and provide answers when needed, fostering a supportive learning environment.
+    \item \textbf{Cons:} If students consistently relies on waiting for answers, then it may create a dependency that hinders their ability to think critically, solve problems independently, or take the initiative into their own learning. The above quote also suggests a potential issue with passive learning, as students may not be actively participating during class or the lecture, which leads to students missing out on the benefits of active engagement and critical thinking times. Furthermore, waiting for answers may slow down the learning process, especially if the students are not actively seeking solutions on their own.
+    \item \textbf{Balance:} It is equally crucial to encourage students to try and solve problems independently first. Striking a balance between guidance and promoting self-reliance is key. Teachers can intervene whenever necessary, ensuring that students are not left waiting too long without assistance. This helps maintain a healthy learning environment and prevents frustrations among students. Teachers could also use the opportunity to instill a sense of curiosity and the importance of actively seeking knowledge. This encourages questions and explorations that can turn the waiting period into an opportunity for self-directed learning.
 \end{itemize}
 
-\subsection{Could put on a reflection}
-
-\begin{itemize}
-    \item How the style of a textbook can affect students learning. (Some textbooks can have no solutions, partial answers, answers to even problems, or full solutions)
-    \begin{itemize}
-        \item When having full solutions, there are some positive aspects and negative aspects.
-        \item When having partial solutions, there are more positive aspects than negative aspects.
-        \item When having no solutions, there are more positive aspects than negative aspects, but can also have more negative aspects than positive aspects as well.
-    \end{itemize}
-\end{itemize}
+\color{black}
 
 \section{Wait Time}
 
 If teachers can increase their pauses after:
-\begin{itemize}
-    \item They ask a question, and
-    \item After a student responds,
-\end{itemize}
-there are significant positive changes. The threshold waiting time is 2.7 seconds, above which there are significant improvements and below which there is little effect. (1986, Rowe)
-
-What do you think are the specific benefits to wait time? \emph{The benefits of wait time include digesting the information that is being provided to the student, allowing the student to catch up in the moment you are currently pausing, or to think about the question and be able to provide an answer.}
-\begin{itemize}
-    \item Increases the quality of the answer from wait time.
-    \item Take a moment to refine what you are about to say.
-    \item Allows more students to be more heard.
-    \item More time for students to think with each other, rather than having the teacher replying.
-    \item Have students start reflecting on the answer that they know is correct, and be able to explain to others why their answer is correct.
-    \item A right amount of wait time would allow more participation allotted.
-\end{itemize}
-
-Research supported benefits to students:
 \begin{enumerate}
-    \item Length of student responses increases 300\%-700\%
+    \item They ask a question and
+    \item After a student responds
+\end{enumerate}
+There are significant positive changes. The threshold waiting time is 2.7 seconds, above which there are significant improvements and below which there is little effect.
+
+Some of the benefits of wait time to students include
+\begin{enumerate}
+    \item Length of student responses increases by 300\%-700\%
     \item More student responses are supported by evidence.
-    \item Number of questions asked by students increases.
-    \item Student-student exchanges increases.
-    \item Fewer `I don't know' responses.
-    \item Less disciplinary issues.
+    \item Number of questions asked by student increases
+    \item Student-student exchanges increases
+    \item Fewer `I don't know' responses
+    \item Less disciplinary issues
     \item Increased variety of students participating.
-    \item Student confidence increases.
+    \item Student confidence increases
 \end{enumerate}
 
-Research supported benefits to teachers:
+Some of the benefits of wait time to teachers include
 \begin{enumerate}
-    \item Teachers demonstrate greater flexibility.
-    \item Teachers ask less questions, but the questions are higher-order (inviting elaboration or opposing viewpoints).
+    \item Teachers demonstrate greater flexibility
+    \item Teachers ask less questions, but the questions are higher-order (inviting elaboration or opposing viewpoints)
     \item ``Invisible students'' become visible.
 \end{enumerate}
-
-\section{The Math Part}
-
-Given an isosceles triangle, $\triangle ABC$ with $\angle ABC = 74^\circ$, find the reflex angle of $\angle ACB$.
-\begin{itemize}
-    \item[(a)] $74^\circ$
-    \item[(b)] $254^\circ$
-    \item[(c)] $286^\circ$
-    \item[(d)] $307^\circ$
-\end{itemize}
-
-\begin{proof}
-    We claim that the reflex angle of $\angle ACB$ is $286^\circ$. Because $\triangle ABC$ is an isosceles triangle, then $\angle ABC = \angle ACB = 74^\circ$. Then because $\angle ABC + x = 360^\circ$ is the complete angle of a circle, then $x = 286^\circ$.
-\end{proof}
-
-Students may answer A because because they might've only found that $\angle ABC = \angle ACB$, but might not have found the \emph{reflex} angle as asked.
-
-Students may answer B by adding the angle $\angle ACB = 74^\circ$ and $180^\circ$.
-
-Students may answer D because they might have not considered what sides are the same, so they may have assumed that the other angles are the same, but halved, i.e. $74^\circ + 53^\circ + 53^\circ$, and then $360^\circ - 53^\circ = 307^\circ$. Misunderstood how the triangle is given.
 
 \end{document}
